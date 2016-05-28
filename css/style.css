@@ -119,7 +119,7 @@ section > h1 {
   border-top-right-radius: 50px;
 }
 
-@media only screen and (max-width: 500px) {
+@media (max-width: 500px) {
   .masthead {
     padding: 3em 0;
   }
@@ -128,5 +128,11 @@ section > h1 {
   }
   .content-footer {
     padding: 1em 3em;
+  }
+}
+
+@media (max-width: 730px) {
+  section {
+    padding: 0 2em;
   }
 }
