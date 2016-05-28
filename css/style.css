@@ -1,0 +1,132 @@
+body {
+  /* Layout Declarations */
+  margin-left: auto;
+  margin-right: auto;
+  /* Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-sarif;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #99B3FF;
+}
+
+a:hover {
+  color: #CCD9FF;
+}
+
+a:visited {
+  color: #0050B3;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  /* Appearance Declarations */
+  background-image: url('http://i.imgur.com/7IMsy8Q.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #FFCF33;
+  color: #FFFFFF;
+}
+
+.masthead-intro {
+  /* Layout Declarations */
+  margin-bottom: 0.1em;
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  text-shadow: 2px 1px 3px #000;
+}
+
+.masthead-heading {
+  /* Layout Declarations */
+  margin-top: -0.2em;
+  /* Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 2px 9px 3px #000, 3px 3px 5px slategray;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.social {
+  padding: 0;
+  list-style: none;
+}
+
+.social > li {
+  /* Layout Declarations */
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.content-footer > p {
+  color: white;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #2A3257;
+  /* Layout */
+  margin: 2em 0 1em 0;
+}
+
+section > h1 {
+  /* Layout */
+  margin-top: 2em;
+  /* Typography Declarations */
+  color: #2A3257;
+  text-shadow: 0px 1px 1px #999
+}
+
+.content-footer {
+  /* Layout Declarations */
+  margin-top: 5em;
+  padding: 3em;
+  /* Appearance Declarations */
+  background-color: #2A3257;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+  .content-footer {
+    padding: 1em 3em;
+  }
+}
